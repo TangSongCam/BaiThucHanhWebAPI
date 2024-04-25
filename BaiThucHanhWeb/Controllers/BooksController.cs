@@ -3,8 +3,10 @@ using System.Linq;
 using BaiThucHanhWeb.Model.Domain;
 using BaiThucHanhWeb.Data;
 using BaiThucHanhWeb.Model.DTO;
-using Microsoft.OpenApi.Models;
-using BaiThucHanhWeb.Data;
+using Microsoft.AspNetCore.Http;
+using BaiThucHanhWeb.Migrations;
+using BaiThucHanhWeb.Repositories;
+using System;
 
 namespace BaiThucHanhWeb.Controllers
 {
@@ -13,60 +15,47 @@ namespace BaiThucHanhWeb.Controllers
     public class BooksController : ControllerBase
     {
         private readonly BookDbContext _dbContext;
+        private readonly IBookRepository _bookRepository;
 
-        public BooksController(BookDbContext context)
+        public BooksController(BookDbContext dbContext, IBookRepository bookRepository)
         {
-            _dbContext = context;
+            _dbContext = dbContext;
+            _bookRepository = bookRepository;
         }
 
         [HttpGet("get-all-books")]
-        public IActionResult GetAllBooks()
+        public IActionResult GetAll()
         {
-            var allBooksDomain = _dbContext.Books;
-
-            var allBooksDTO = allBooksDomain.Select(book => new BookDTO()
-            {
-                ID = book.ID,
-                Title = book.Title,
-                Description = book.Description,
-                IsRead = book.IsRead,
-                DateRead = book.DateRead ?? null,
-                Rate = book.Rate,
-                Genre = book.Genre,
-                CoverUrl = book.CoverUrl,
-                PublisherName = book.Publisher.Name,
-                AuthorName = book.BookAuthors.Select(author => author.Author.FullName).ToList()
-            }).ToList();
-
-
-            return Ok(allBooksDTO);
+            // su dung reposity pattern  
+            var allBooks = _bookRepository.GetAllBooks();
+            return Ok(allBooks);
         }
 
-        [HttpGet("get-book-by-id/{id}")]
-        public IActionResult GetBookById(int id)
+        [HttpGet]
+        [Route("get-book-by-id/{id}")]
+        public IActionResult GetBookById([FromRoute] int id)
         {
-            var book = _dbContext.Books.FirstOrDefault(b => b.ID == id);
+            var bookWithIdDTO = _bookRepository.GetBookById(id);
+            return Ok(bookWithIdDTO);
+        }
+        [HttpPost("add - book")]
+        public IActionResult AddBook([FromBody] AdBookRequestDTO adBookRequestDTO)
+        {
+            var bookAdd = _bookRepository.AddBook(adBookRequestDTO);
+            return Ok(bookAdd);
+        }
 
-            if (book == null)
-            {
-                return NotFound();
-            }
-
-            var bookDTO = new BookDTO()
-            {
-                ID = book.ID,
-                Title = book.Title,
-                Description = book.Description,
-                IsRead = book.IsRead,
-                DateRead = book.DateRead ?? null,
-                Rate = book.Rate,
-                Genre = book.Genre,
-                CoverUrl = book.CoverUrl,
-                PublisherName = book.Publisher.Name,
-                AuthorName = book.BookAuthors.Select(author => author.Author.FullName).ToList()
-            };
-
-            return Ok(bookDTO);
+        [HttpPut("update-book-by-id/{id}")]
+        public IActionResult UpdateBookById(int id, [FromBody] AdBookRequestDTO bookDTO)
+        {
+            var updateBook = _bookRepository.UpdateBookById(id, bookDTO);
+            return Ok(updateBook);
+        }
+        [HttpDelete("delete-book-by-id/{id}")]
+        public IActionResult DeleteBookById(int id)
+        {
+            var deleteBook = _bookRepository.DeleteBookById(id);
+            return Ok(deleteBook);
         }
     }
 }

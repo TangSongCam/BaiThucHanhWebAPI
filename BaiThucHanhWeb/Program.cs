@@ -1,10 +1,13 @@
 ﻿using BaiThucHanhWeb.Data;
+using BaiThucHanhWeb.Repositories;
+using BTH_BUOI1.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IBookRepository, SQLBookRepository>();
 builder.Services.AddDbContext<BookDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();

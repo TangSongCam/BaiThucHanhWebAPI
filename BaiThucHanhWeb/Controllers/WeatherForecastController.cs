@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+/*using Microsoft.AspNetCore.Mvc;
 
 namespace BaiThucHanhWeb.Controllers
 {
@@ -31,3 +31,4 @@ namespace BaiThucHanhWeb.Controllers
         }
     }
 }
+*/

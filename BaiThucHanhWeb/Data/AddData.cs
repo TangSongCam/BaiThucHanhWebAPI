@@ -17,6 +17,7 @@ namespace BaiThucHanhWeb.Data
 
         public void SeedData()
         {
+
             _builder.Entity<Authors>().HasData(
                 new Authors { ID = 1, FullName = "Paulo Coelho" },
                 new Authors { ID = 2, FullName = "J.K. Rowling" },
@@ -36,7 +37,7 @@ namespace BaiThucHanhWeb.Data
             _builder.Entity<Books>().HasData(
                 new Books
                 {
-                    ID = 201,
+                    ID = 1,
                     Title = "The Alchemist",
                     Description = "The Alchemist is about a shepherd named Santiago who embarks on a journey to fulfill his dreams and find the true meaning of life.",
                     IsRead = false,
@@ -45,11 +46,11 @@ namespace BaiThucHanhWeb.Data
                     Genre = 1,
                     CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/The-Alchemist-676x1024.jpg",
                     DateAdded = new DateTime(2024, 4, 16),
-                    PublisherID = 101 
+                    PublisherID = 1 
                 },
                 new Books
                 {
-                    ID = 202,
+                    ID = 2,
                     Title = "Harry Potter",
                     Description = "Harry Potter series follows the adventures of a young wizard at Hogwarts School of Witchcraft and Wizardry.",
                     IsRead = false,
@@ -58,11 +59,11 @@ namespace BaiThucHanhWeb.Data
                     Genre = 2,
                     CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/Harry-Potter.jpg",
                     DateAdded = new DateTime(2024, 4, 15),
-                    PublisherID = 102
+                    PublisherID = 2
                 },
                 new Books
                 {
-                    ID = 203,
+                    ID = 3,
                     Title = "Diary of a Wimpy Kid",
                     Description = "Diary of a Wimpy Kid series humorously documents the ups and downs of middle school life through the diary entries of protagonist Greg Heffley.",
                     IsRead = false,
@@ -71,11 +72,11 @@ namespace BaiThucHanhWeb.Data
                     Genre = 3,
                     CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/diary-of-a-wimpy-kid.jpg",
                     DateAdded = new DateTime(2024, 4, 14),
-                    PublisherID = 103 
+                    PublisherID = 3 
                 },
                 new Books
                 {
-                    ID = 204,
+                    ID = 4,
                     Title = "To Kill a Mockingbird",
                     Description = "To Kill a Mockingbird is a classic novel that explores themes of racial injustice and moral growth through the eyes of young Scout Finch in the American South of the 1930s.",
                     IsRead = false,
@@ -84,11 +85,11 @@ namespace BaiThucHanhWeb.Data
                     Genre = 4,
                     CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/to-kill-a-mockingbird.jpg",
                     DateAdded = new DateTime(2024, 4, 13),
-                    PublisherID = 104 
+                    PublisherID = 4 
                 },
                 new Books
                 {
-                    ID = 205,
+                    ID = 5,
                     Title = "The Catcher in the Rye",
                     Description = "The Catcher in the Rye is a classic novel that explores teenage angst and rebellion against societal phoniness.",
                     IsRead = false,
@@ -97,7 +98,8 @@ namespace BaiThucHanhWeb.Data
                     Genre = 5,
                     CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/the-catcher-in-the-rye.jpg",
                     DateAdded = new DateTime(2024, 4, 12),
-                    PublisherID = 105 // Sử dụng PublishersID thay vì Idpublisher
+                    PublisherID = 5
+
                 }
             );
         }
