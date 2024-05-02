@@ -57,5 +57,19 @@ namespace BaiThucHanhWeb.Controllers
             var deleteBook = _bookRepository.DeleteBookById(id);
             return Ok(deleteBook);
         }
+
+        [HttpGet("get-all-books-sorted-by-field")]
+        public IActionResult GetAllBooksSortedByField([FromQuery] string field, [FromQuery] bool ascending = true)
+        {
+            try
+            {
+                var allBooksSortedByField = _bookRepository.GetBooksSortedByField(field, ascending);
+                return Ok(allBooksSortedByField);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
     }
 }

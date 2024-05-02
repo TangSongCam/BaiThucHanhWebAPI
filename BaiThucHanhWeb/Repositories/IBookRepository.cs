@@ -11,5 +11,6 @@ namespace BaiThucHanhWeb.Repositories
         AdBookRequestDTO AddBook(AdBookRequestDTO addBookRequestDTO);
         AdBookRequestDTO? UpdateBookById(int id, AdBookRequestDTO bookDTO);
         Books? DeleteBookById(int id);
+        public List<BookDTO> GetBooksSortedByField(string field, bool ascending);
     }
 }

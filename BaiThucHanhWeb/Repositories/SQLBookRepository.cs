@@ -5,7 +5,7 @@ using BaiThucHanhWeb.Repositories;
 using System;
 using BaiThucHanhWeb.Migrations;
 
-namespace BTH_BUOI1.Repositories
+namespace BaiThucHanhWeb
 {
     public class SQLBookRepository : IBookRepository
     {
@@ -53,7 +53,6 @@ namespace BTH_BUOI1.Repositories
         }
         public AdBookRequestDTO AddBook(AdBookRequestDTO addBookRequestDTO)
         {
-            //map DTO to Domain Model
             var bookDomainModel = new Books
             {
                 Title = addBookRequestDTO.Title,
@@ -66,7 +65,6 @@ namespace BTH_BUOI1.Repositories
                 DateAdded = addBookRequestDTO.DateAdded,
                 PublisherID = addBookRequestDTO.PublisherID
             };
-            //Use Domain Model to add Book
             _dbContext.Books.Add(bookDomainModel);
             _dbContext.SaveChanges();
             foreach (var id in addBookRequestDTO.AuthorIds)
@@ -124,6 +122,32 @@ namespace BTH_BUOI1.Repositories
                 _dbContext.SaveChanges();
             }
             return bookDomain;
+        }
+
+        public List<BookDTO> GetBooksSortedByField(string field, bool ascending)
+        {
+            var query = _dbContext.Books.AsQueryable();
+
+            switch (field.ToLower())
+            {
+                case "id":
+                    query = ascending ? query.OrderBy(b => b.ID) : query.OrderByDescending(b => b.ID);
+                    break;
+                case "title":
+                    query = ascending ? query.OrderBy(b => b.Title) : query.OrderByDescending(b => b.Title);
+                    break;
+                default:
+                    throw new ArgumentException("Invalid field name");
+            }
+
+            return query
+                .Select(b => new BookDTO
+                {
+                    ID = b.ID,
+                    Title = b.Title
+                })
+                .ToList();
+
         }
     }
 }
