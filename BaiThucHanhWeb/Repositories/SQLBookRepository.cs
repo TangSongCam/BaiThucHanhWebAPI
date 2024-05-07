@@ -147,7 +147,34 @@ namespace BaiThucHanhWeb
                     Title = b.Title
                 })
                 .ToList();
+        }
 
+        public List<BookDTO> SearchBooks(string keyword)
+        {
+            var query = _dbContext.Books
+                .Where(b => b.Title.Contains(keyword) || b.Description.Contains(keyword))
+                .OrderBy(b => b.Title)
+                .Select(b => new BookDTO
+                {
+                    ID = b.ID,
+                    Title = b.Title
+                })
+                .ToList();
+
+            return query;
+        }
+
+        public List<BookDTO> GetBooksPage(int pageNumber, int pageSize)
+        {
+            return _dbContext.Books
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .Select(b => new BookDTO
+                {
+                    ID = b.ID,
+                    Title = b.Title
+                })
+                .ToList();
         }
     }
 }

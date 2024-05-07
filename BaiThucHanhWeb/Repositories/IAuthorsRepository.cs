@@ -12,5 +12,7 @@ namespace BaiThucHanhWeb.Repositories
         AuthorsDTO UpdateAuthorById(int id, Authors author);
         Authors? DeleteAuthorById(int id);
         public List<AuthorsDTO> GetAuthorsSortedByField(string field, bool ascending);
+        List<AuthorsDTO> SearchAuthors(string keyword);
+        List<AuthorsDTO> GetAuthorsPage(int pageNumber, int pageSize);
     }
 }

@@ -65,5 +65,34 @@ namespace BaiThucHanhWeb.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpGet("search-publishers")]
+        public IActionResult SearchPublishers([FromQuery] string keyword)
+        {
+            try
+            {
+                var foundPublishers = _publishersRepository.SearchPublishers(keyword);
+                return Ok(foundPublishers);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpGet("get-publishers-page")]
+        public IActionResult GetPublishersPage([FromQuery] int pageNumber, [FromQuery] int pageSize)
+        {
+            try
+            {
+                var publishersPage = _publishersRepository.GetPublishersPage(pageNumber, pageSize);
+                return Ok(publishersPage);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
     }
 }

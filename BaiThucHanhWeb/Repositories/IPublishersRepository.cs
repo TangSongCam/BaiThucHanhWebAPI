@@ -12,5 +12,7 @@ namespace BaiThucHanhWeb.Repositories
         PublishersDTO UpdatePublisherById(int id, PublishersDTO publisher);
         Publishers? DeletePublisherById(int id);
         public List<PublishersDTO> GetPublishersSortedByField(string field, bool ascending);
+        List<PublishersDTO> SearchPublishers(string keyword);
+        List<PublishersDTO> GetPublishersPage(int pageNumber, int pageSize);
     }
 }

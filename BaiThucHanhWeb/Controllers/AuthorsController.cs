@@ -2,6 +2,7 @@
 using BaiThucHanhWeb.Model.DTO;
 using BaiThucHanhWeb.Repositories;
 using BaiThucHanhWeb.Model.Domain;
+using System.Runtime.CompilerServices;
 
 namespace BaiThucHanhWeb.Controllers
 {
@@ -73,8 +74,34 @@ namespace BaiThucHanhWeb.Controllers
             }
         }
 
+        [HttpGet("search-author")]
 
+        public IActionResult SearchAuthors([FromQuery] string keyword)
+        {
+            try
+            {
+                var foundAuthors = _authorsRepository.SearchAuthors(keyword);
+                return Ok(foundAuthors);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
 
+        }
 
+        [HttpGet("get-authors-page")]
+        public IActionResult GetAuthorsPage([FromQuery] int pageNumber, [FromQuery] int pageSize)
+        {
+            try
+            {
+                var authorsPage = _authorsRepository.GetAuthorsPage(pageNumber, pageSize);
+                return Ok(authorsPage);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
     }
 }

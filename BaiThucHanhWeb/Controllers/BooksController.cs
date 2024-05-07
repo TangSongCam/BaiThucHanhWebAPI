@@ -45,6 +45,25 @@ namespace BaiThucHanhWeb.Controllers
             return Ok(bookAdd);
         }
 
+        /*[HttpPost("add-book")]
+        [ValidateModel]
+        public IActionResult AddBook([FromBody] AdBookRequestDTO adBookRequestDTO)
+        {
+            if (!ValidateAddBook(adBookRequestDTO))
+            {
+                return BadRequest(ModelState);
+            }
+            // before add da
+
+            if (ModelState.IsValid)
+            {
+                var bookAdd = _bookRepository.AddBook(adBookRequestDTO);
+                return Ok(bookAdd);
+            }
+            else return BadRequest(ModelState);
+        }*/
+
+
         [HttpPut("update-book-by-id/{id}")]
         public IActionResult UpdateBookById(int id, [FromBody] AdBookRequestDTO bookDTO)
         {
@@ -71,5 +90,63 @@ namespace BaiThucHanhWeb.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpGet("search-books")]
+        public IActionResult SearchBooks([FromQuery] string keyword)
+        {
+            try
+            {
+                var foundBooks = _bookRepository.SearchBooks(keyword);
+                return Ok(foundBooks);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+
+        [HttpGet("get-books-page")]
+        public IActionResult GetBooksPage([FromQuery] int pageNumber, [FromQuery] int pageSize)
+        {
+            try
+            {
+                var booksPage = _bookRepository.GetBooksPage(pageNumber, pageSize);
+                return Ok(booksPage);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+
+        /*#region Private methods 
+        private bool ValidateAddBook(AdBookRequestDTO adBookRequestDTO)
+        {
+            if (adBookRequestDTO == null)
+            {
+                ModelState.AddModelError(nameof(adBookRequestDTO), $"Please add book data");
+                return false;
+            }
+            // kiem tra Description NotNull 
+            if (string.IsNullOrEmpty(adBookRequestDTO.Description))
+            {
+                ModelState.AddModelError(nameof(adBookRequestDTO.Description), $"{nameof(adBookRequestDTO.Description)} cannot be null");
+            }
+            // kiem tra rating (0,5) 
+            if (adBookRequestDTO.Rate < 0 || adBookRequestDTO.Rate > 5)
+            {
+                ModelState.AddModelError(nameof(adBookRequestDTO.Rate), $"{nameof(adBookRequestDTO.Rate)} cannot be less than 0 and more than 5");
+            }
+
+            if (ModelState.ErrorCount > 0)
+            {
+                return false;
+            }
+
+            return true;
+        }
+        #endregion*/
     }
 }

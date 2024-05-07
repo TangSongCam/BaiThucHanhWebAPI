@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using BaiThucHanhWeb.Model.Domain;
+using BaiThucHanhWeb.Model.DTO;
 
 namespace BaiThucHanhWeb.Data
 {
@@ -13,7 +14,7 @@ namespace BaiThucHanhWeb.Data
         public BookDbContext(DbContextOptions<BookDbContext> options) : base(options)
         {
         }
-
+        public DbSet<User> Users { get; set; }
         public DbSet<Authors> Authors { get; set; }
         public DbSet<Book_Author> BookAuthors { get; set; }
         public DbSet<Books> Books { get; set; }

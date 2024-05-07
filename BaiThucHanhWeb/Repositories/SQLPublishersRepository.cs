@@ -96,5 +96,34 @@ namespace BaiThucHanhWeb.Repositories
                 })
                 .ToList();
         }
+
+        public List<PublishersDTO> SearchPublishers(string keyword)
+        {
+            var query = _dbContext.Publishers
+                .Where(p => p.Name.Contains(keyword))
+                .OrderBy(p => p.Name)
+                .Select(p => new PublishersDTO
+                {
+                    ID = p.ID,
+                    Name = p.Name
+                })
+                .ToList();
+
+            return query;
+        }
+
+        public List<PublishersDTO> GetPublishersPage(int pageNumber, int pageSize)
+        {
+            return _dbContext.Publishers
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .Select(p => new PublishersDTO
+                {
+                    ID = p.ID,
+                    Name = p.Name
+                })
+                .ToList();
+        }
+
     }
 }
