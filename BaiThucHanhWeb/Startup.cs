@@ -1,5 +1,4 @@
-﻿using BaiThucHanhWeb.Repositories;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿/*using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using BaiThucHanhWeb.Data;
+using BaiThucHanhWeb.Repositories;
 using System.Text;
 
 namespace BaiThucHanhWeb
@@ -22,7 +23,8 @@ namespace BaiThucHanhWeb
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // Cấu hình xác thực JWT
+            services.AddScoped<JwtService>();
+
             var key = Encoding.ASCII.GetBytes(Configuration["Jwt:SecretKey"]);
             services.AddAuthentication(options =>
             {
@@ -44,26 +46,34 @@ namespace BaiThucHanhWeb
                 };
             });
 
-            // Cấu hình Authorization
             services.AddAuthorization();
 
             services.AddControllers();
 
             services.AddScoped<IUserRepository, UserRepository>();
-
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/error");
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
             app.UseRouting();
-
-            app.UseAuthentication(); // Sử dụng xác thực JWT
-            app.UseAuthorization(); // Sử dụng ủy quyền
-
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
         }
     }
-    }
+}
+*/

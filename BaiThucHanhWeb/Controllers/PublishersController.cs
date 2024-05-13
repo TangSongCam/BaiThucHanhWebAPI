@@ -1,6 +1,7 @@
 ﻿using BaiThucHanhWeb.Model.Domain;
 using BaiThucHanhWeb.Model.DTO;
 using BaiThucHanhWeb.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BaiThucHanhWeb.Controllers
@@ -17,6 +18,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpGet("get-all-publishers")]
+        [Authorize(Roles = "Read")]
         public IActionResult GetAll()
         {
             var allPublishers = _publishersRepository.GetAllPublishers();
@@ -25,6 +27,7 @@ namespace BaiThucHanhWeb.Controllers
 
         [HttpGet]
         [Route("get-publishers-by-id/{id}")]
+        [Authorize(Roles = "Write")]
         public IActionResult GetPublisherById([FromRoute] int id)
         {
             var publisher = _publishersRepository.GetPublisherById(id);
@@ -32,6 +35,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpPost("add-publisher")]
+        [Authorize(Roles = "Write")]
         public IActionResult AddPublisher([FromBody] PublishersDTO publisher)
         {
             var addedPublisher = _publishersRepository.AddPublisher(publisher);
@@ -39,6 +43,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpPut("update-publisher-by-id/{id}")]
+        [Authorize(Roles = "Write")]
         public IActionResult UpdatePublisherById(int id, [FromBody] PublishersDTO publisherDTO)
         {
             var updatePublisher = _publishersRepository.UpdatePublisherById(id, publisherDTO);
@@ -46,6 +51,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpDelete("delete-publisher-by-id/{id}")]
+        [Authorize(Roles = "Write")]
         public IActionResult DeletePublisherById(int id)
         {
             var deletedPublisher = _publishersRepository.DeletePublisherById(id);
@@ -53,6 +59,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpGet("get-all-publishers-sorted-by-field")]
+        [Authorize(Roles = "Write")]
         public IActionResult GetAllPublishersSortedByField([FromQuery] string field, [FromQuery] bool ascending = true)
         {
             try
@@ -67,6 +74,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpGet("search-publishers")]
+        [Authorize(Roles = "Write")]
         public IActionResult SearchPublishers([FromQuery] string keyword)
         {
             try
@@ -81,6 +89,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpGet("get-publishers-page")]
+        [Authorize(Roles = "Write")]
         public IActionResult GetPublishersPage([FromQuery] int pageNumber, [FromQuery] int pageSize)
         {
             try
