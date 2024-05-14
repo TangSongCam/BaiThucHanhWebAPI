@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using BaiThucHanhWeb.Model.Domain;
 using BaiThucHanhWeb.Model.DTO;
 
@@ -14,11 +13,13 @@ namespace BaiThucHanhWeb.Data
         public BookDbContext(DbContextOptions<BookDbContext> options) : base(options)
         {
         }
+
         public DbSet<User> Users { get; set; }
         public DbSet<Authors> Authors { get; set; }
         public DbSet<Book_Author> BookAuthors { get; set; }
         public DbSet<Books> Books { get; set; }
         public DbSet<Publishers> Publishers { get; set; }
+        public DbSet<Image> images { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -49,6 +50,10 @@ namespace BaiThucHanhWeb.Data
                 .WithMany(p => p.Books)
                 .HasForeignKey(b => b.PublisherID);
 
+            builder.Entity<Image>()
+                .HasKey(i => i.Id);
+
+            // Nếu có SeedData trong AddData thì giữ lại
             new AddData(builder).SeedData();
         }
     }

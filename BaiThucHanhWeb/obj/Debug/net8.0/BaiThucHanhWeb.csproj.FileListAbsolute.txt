@@ -151,3 +151,10 @@ C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Ser
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

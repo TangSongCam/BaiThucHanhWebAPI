@@ -15,18 +15,18 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//danh ky AddHttpContextAccessor
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddControllers();
 // Add services to the container.
 builder.Services.AddScoped<IAuthorsRepository, SQLAuthorsRepository>();
 builder.Services.AddScoped<IPublishersRepository, SQLPublishersRepository>();
 builder.Services.AddScoped<IBookRepository, SQLBookRepository>();
 builder.Services.AddScoped<IUserRepository, SQLUserRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
-
+builder.Services.AddScoped<IImageRepository, LocalImageRepository>();
 builder.Services.AddDbContext<BookDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddControllers();
 
 builder.Services.AddDbContext<BookAuthDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BookAuthConnection")));

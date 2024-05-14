@@ -22,6 +22,24 @@ namespace BaiThucHanhWeb.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("BaiThucHanhWeb.Model.DTO.User", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("BaiThucHanhWeb.Model.Domain.Authors", b =>
                 {
                     b.Property<int>("ID")
@@ -37,6 +55,33 @@ namespace BaiThucHanhWeb.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Authors");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            FullName = "Paulo Coelho"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            FullName = "J.K. Rowling"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            FullName = "Jeff Kinney"
+                        },
+                        new
+                        {
+                            ID = 4,
+                            FullName = "Harper Lee"
+                        },
+                        new
+                        {
+                            ID = 5,
+                            FullName = "J.D. Salinger"
+                        });
                 });
 
             modelBuilder.Entity("BaiThucHanhWeb.Model.Domain.Book_Author", b =>
@@ -105,6 +150,104 @@ namespace BaiThucHanhWeb.Migrations
                     b.HasIndex("PublisherID");
 
                     b.ToTable("Books");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/The-Alchemist-676x1024.jpg",
+                            DateAdded = new DateTime(2024, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateRead = new DateTime(2024, 4, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "The Alchemist is about a shepherd named Santiago who embarks on a journey to fulfill his dreams and find the true meaning of life.",
+                            Genre = 1,
+                            IsRead = false,
+                            PublisherID = 1,
+                            Rate = 5,
+                            Title = "The Alchemist"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/Harry-Potter.jpg",
+                            DateAdded = new DateTime(2024, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateRead = new DateTime(2024, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Harry Potter series follows the adventures of a young wizard at Hogwarts School of Witchcraft and Wizardry.",
+                            Genre = 2,
+                            IsRead = false,
+                            PublisherID = 2,
+                            Rate = 4,
+                            Title = "Harry Potter"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/diary-of-a-wimpy-kid.jpg",
+                            DateAdded = new DateTime(2024, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateRead = new DateTime(2024, 4, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "Diary of a Wimpy Kid series humorously documents the ups and downs of middle school life through the diary entries of protagonist Greg Heffley.",
+                            Genre = 3,
+                            IsRead = false,
+                            PublisherID = 3,
+                            Rate = 3,
+                            Title = "Diary of a Wimpy Kid"
+                        },
+                        new
+                        {
+                            ID = 4,
+                            CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/to-kill-a-mockingbird.jpg",
+                            DateAdded = new DateTime(2024, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateRead = new DateTime(2024, 4, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "To Kill a Mockingbird is a classic novel that explores themes of racial injustice and moral growth through the eyes of young Scout Finch in the American South of the 1930s.",
+                            Genre = 4,
+                            IsRead = false,
+                            PublisherID = 4,
+                            Rate = 2,
+                            Title = "To Kill a Mockingbird"
+                        },
+                        new
+                        {
+                            ID = 5,
+                            CoverUrl = "https://www.tailieuielts.com/wp-content/uploads/2022/01/the-catcher-in-the-rye.jpg",
+                            DateAdded = new DateTime(2024, 4, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DateRead = new DateTime(2024, 4, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Description = "The Catcher in the Rye is a classic novel that explores teenage angst and rebellion against societal phoniness.",
+                            Genre = 5,
+                            IsRead = false,
+                            PublisherID = 5,
+                            Rate = 1,
+                            Title = "The Catcher in the Rye"
+                        });
+                });
+
+            modelBuilder.Entity("BaiThucHanhWeb.Model.Domain.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FileDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileExtension")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("FileSizeInBytes")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("images");
                 });
 
             modelBuilder.Entity("BaiThucHanhWeb.Model.Domain.Publishers", b =>
@@ -122,6 +265,33 @@ namespace BaiThucHanhWeb.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Publishers");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 101,
+                            Name = "HarperCollins"
+                        },
+                        new
+                        {
+                            ID = 102,
+                            Name = "Bloomsbury (UK), Scholastic (US)"
+                        },
+                        new
+                        {
+                            ID = 103,
+                            Name = "Amulet Books (US), Puffin Books (UK)"
+                        },
+                        new
+                        {
+                            ID = 104,
+                            Name = "J.B. Lippincott & Co."
+                        },
+                        new
+                        {
+                            ID = 105,
+                            Name = "Little, Brown and Company"
+                        });
                 });
 
             modelBuilder.Entity("BaiThucHanhWeb.Model.Domain.Book_Author", b =>

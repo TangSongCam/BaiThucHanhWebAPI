@@ -1,0 +1,24 @@
+2024-05-14 10:12:03.622 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7183/api/Images/upload - multipart/form-data; boundary=----WebKitFormBoundaryY3H0c2fQdNAAiAV2 926290216
+2024-05-14 10:12:03.739 +07:00 [INF] Executing endpoint 'BaiThucHanhWeb.Controllers.ImagesController.Upload (BaiThucHanhWeb)'
+2024-05-14 10:12:03.768 +07:00 [INF] Route matched with {action = "Upload", controller = "Images"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload(BaiThucHanhWeb.Model.DTO.ImageUploadRequestDTO) on controller BaiThucHanhWeb.Controllers.ImagesController (BaiThucHanhWeb).
+2024-05-14 10:12:04.344 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-14 10:12:04.362 +07:00 [INF] Executed action BaiThucHanhWeb.Controllers.ImagesController.Upload (BaiThucHanhWeb) in 589.4769ms
+2024-05-14 10:12:04.363 +07:00 [INF] Executed endpoint 'BaiThucHanhWeb.Controllers.ImagesController.Upload (BaiThucHanhWeb)'
+2024-05-14 10:12:04.365 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7183/api/Images/upload - 400 null application/problem+json; charset=utf-8 742.9139ms
+2024-05-14 10:12:04.368 +07:00 [INF] Connection id "0HN3JOECGHTA7", Request id "0HN3JOECGHTA7:00000001": the application completed without reading the entire request body.
+2024-05-14 10:12:30.667 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-14 10:12:30.784 +07:00 [INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-14 10:12:30.786 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-14 10:12:30.787 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-14 10:12:30.806 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-14 10:12:30.816 +07:00 [INF] Applying migration '20240514031224_AddImages'.
+2024-05-14 10:12:30.851 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240514031224_AddImages', N'8.0.4');
