@@ -1,0 +1,34 @@
+2024-05-15 09:10:31.647 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 09:10:31.765 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-15 09:10:31.767 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-15 09:10:31.768 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 09:10:31.769 +07:00 [INF] Hosting environment: Development
+2024-05-15 09:10:31.770 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-15 09:10:32.130 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-15 09:10:32.240 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 110.669ms
+2024-05-15 09:10:32.242 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 09:10:32.242 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-15 09:10:32.248 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.8425ms
+2024-05-15 09:10:32.269 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.065ms
+2024-05-15 09:10:32.304 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-15 09:10:32.395 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.4435ms
+2024-05-15 09:10:41.003 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 09:10:41.114 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-15 09:10:41.115 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-15 09:10:41.117 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 09:10:41.117 +07:00 [INF] Hosting environment: Development
+2024-05-15 09:10:41.118 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-15 09:10:54.077 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 09:10:54.182 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-15 09:10:54.184 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-15 09:10:54.185 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 09:10:54.186 +07:00 [INF] Hosting environment: Development
+2024-05-15 09:10:54.186 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-15 09:10:54.729 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-15 09:10:54.876 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 160.5047ms
+2024-05-15 09:10:54.879 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-15 09:10:54.879 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 09:10:54.888 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.4959ms
+2024-05-15 09:10:54.906 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.9971ms
+2024-05-15 09:10:55.056 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-15 09:10:55.158 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.7593ms

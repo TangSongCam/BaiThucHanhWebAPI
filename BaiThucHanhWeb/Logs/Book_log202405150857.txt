@@ -1,0 +1,14 @@
+2024-05-15 08:57:23.650 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 08:57:23.763 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-15 08:57:23.765 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-15 08:57:23.766 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 08:57:23.767 +07:00 [INF] Hosting environment: Development
+2024-05-15 08:57:23.767 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-15 08:57:24.181 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-15 08:57:24.378 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 197.7822ms
+2024-05-15 08:57:24.387 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 08:57:24.389 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-15 08:57:24.398 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.0048ms
+2024-05-15 08:57:24.420 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.9116ms
+2024-05-15 08:57:24.488 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-15 08:57:24.585 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.9308ms

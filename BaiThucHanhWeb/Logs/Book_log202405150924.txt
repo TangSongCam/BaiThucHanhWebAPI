@@ -1,0 +1,27 @@
+2024-05-15 09:24:25.917 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7183/api/User/Login - application/json 63
+2024-05-15 09:24:25.923 +07:00 [INF] Executing endpoint 'BaiThucHanhWeb.Controllers.UserController.Login (BaiThucHanhWeb)'
+2024-05-15 09:24:25.925 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(BaiThucHanhWeb.Model.DTO.LoginRequestDTO) on controller BaiThucHanhWeb.Controllers.UserController (BaiThucHanhWeb).
+2024-05-15 09:24:25.974 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-05-15 09:24:26.079 +07:00 [INF] Executed DbCommand (27ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-05-15 09:24:26.106 +07:00 [INF] Executing OkObjectResult, writing value of type 'BaiThucHanhWeb.Model.DTO.LoginResponseDTO'.
+2024-05-15 09:24:26.111 +07:00 [INF] Executed action BaiThucHanhWeb.Controllers.UserController.Login (BaiThucHanhWeb) in 183.9643ms
+2024-05-15 09:24:26.113 +07:00 [INF] Executed endpoint 'BaiThucHanhWeb.Controllers.UserController.Login (BaiThucHanhWeb)'
+2024-05-15 09:24:26.116 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7183/api/User/Login - 200 null application/json; charset=utf-8 198.2067ms
+2024-05-15 09:24:54.373 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=name&ascending=true - null null
+2024-05-15 09:24:54.378 +07:00 [INF] Executing endpoint 'BaiThucHanhWeb.Controllers.BooksController.GetAllBooksSortedByField (BaiThucHanhWeb)'
+2024-05-15 09:24:54.385 +07:00 [INF] Route matched with {action = "GetAllBooksSortedByField", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllBooksSortedByField(System.String, Boolean) on controller BaiThucHanhWeb.Controllers.BooksController (BaiThucHanhWeb).
+2024-05-15 09:24:54.588 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[Title]
+FROM [Books] AS [b]
+ORDER BY [b].[Title]
+2024-05-15 09:24:54.592 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BaiThucHanhWeb.Model.DTO.BookDTO, BaiThucHanhWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-15 09:24:54.600 +07:00 [INF] Executed action BaiThucHanhWeb.Controllers.BooksController.GetAllBooksSortedByField (BaiThucHanhWeb) in 208.8362ms
+2024-05-15 09:24:54.601 +07:00 [INF] Executed endpoint 'BaiThucHanhWeb.Controllers.BooksController.GetAllBooksSortedByField (BaiThucHanhWeb)'
+2024-05-15 09:24:54.602 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=name&ascending=true - 200 null application/json; charset=utf-8 228.5312ms

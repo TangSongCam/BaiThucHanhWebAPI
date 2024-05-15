@@ -3,6 +3,106 @@
   "WorkspaceRootPath": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\books\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\books\\editbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\books\\listbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\books\\listbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\books\\addbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\books\\addbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\dto\\editdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\dto\\editdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\dto\\addbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\dto\\addbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\dto\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\dto\\authordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\dto\\publishernoiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\dto\\publishernoiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\webthuchanhmvc\\models\\dto\\publisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}|WebThucHanhMVC\\WebThucHanhMVC.csproj|solutionrelative:webthuchanhmvc\\models\\dto\\publisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\data\\adddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\data\\adddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\model\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\model\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,18 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\data\\customactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\data\\customactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\baithuchanhweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\baithuchanhweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\model\\dto\\publishersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,10 +187,6 @@
       "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\BookDb\\20240514024236_AddImages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiThucHanhWeb\\Migrations\\BookDb\\20240514024236_AddImages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,10 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|solutionrelative:baithuchanhweb\\repositories\\sqlbookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74FE97FB-10A4-4DE9-8890-09A533334274}|BaiThucHanhWeb\\BaiThucHanhWeb.csproj|c:\\users\\songcam\\source\\repos\\baithuchanhweb\\baithuchanhweb\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -217,7 +293,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -241,44 +317,287 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddData.cs",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\AddData.cs",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Data\\AddData.cs",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\AddData.cs",
-              "RelativeToolTip": "BaiThucHanhWeb\\Data\\AddData.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAAAIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T01:04:32.969Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAEgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T02:06:02.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Publishers.cs",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
-              "RelativeToolTip": "BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "editBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\editBook.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Books\\editBook.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\editBook.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Books\\editBook.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T01:45:40.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwC4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T01:03:40.056Z"
+              "WhenOpened": "2024-05-14T03:53:13.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T01:33:26.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Program.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T01:09:31.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAqwEcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:29:25.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\BooksController.cs",
               "RelativeToolTip": "BaiThucHanhWeb\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T01:42:17.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "SQLBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
+              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
+              "RelativeToolTip": "BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAIcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T01:54:28.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T11:53:29.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T02:08:55.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T12:15:38.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "editDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\editDTO.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\DTO\\editDTO.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\editDTO.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\DTO\\editDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:10:47.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\AddBook.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Books\\AddBook.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\AddBook.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Books\\AddBook.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T01:44:44.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "listBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\listBook.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\Books\\listBook.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\Books\\listBook.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\Books\\listBook.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T01:47:59.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:53:28.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\BookDTO.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\DTO\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\BookDTO.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\DTO\\BookDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:53:40.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "addBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\addBookDTO.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\DTO\\addBookDTO.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\addBookDTO.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\DTO\\addBookDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:36:07.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "authorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\authorDTO.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\DTO\\authorDTO.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\authorDTO.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\DTO\\authorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:09:00.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebThucHanhMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T12:27:20.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\appsettings.json",
+              "RelativeToolTip": "WebThucHanhMVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-15T01:13:37.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T01:18:11.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "publisherNoIdDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\publisherNoIdDTO.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\DTO\\publisherNoIdDTO.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\publisherNoIdDTO.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\DTO\\publisherNoIdDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:10:23.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "publisherDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\publisherDTO.cs",
+              "RelativeDocumentMoniker": "WebThucHanhMVC\\Models\\DTO\\publisherDTO.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\WebThucHanhMVC\\Models\\DTO\\publisherDTO.cs",
+              "RelativeToolTip": "WebThucHanhMVC\\Models\\DTO\\publisherDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T12:09:41.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "BookAuthDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\BookAuthDbContext.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Data\\BookAuthDbContext.cs",
@@ -290,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 33,
               "Title": "CustomActionFilter.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\CustomActionFilter.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Data\\CustomActionFilter.cs",
@@ -302,7 +621,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "BaiThucHanhWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\appsettings.json",
+              "RelativeToolTip": "BaiThucHanhWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T01:11:44.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Program.cs",
+              "RelativeToolTip": "BaiThucHanhWeb\\Program.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAH4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T01:26:24.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddData.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\AddData.cs",
+              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Data\\AddData.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\AddData.cs",
+              "RelativeToolTip": "BaiThucHanhWeb\\Data\\AddData.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T01:04:32.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "LocalImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\LocalImageRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\LocalImageRepository.cs",
@@ -314,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 28,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Controllers\\ImagesController.cs",
@@ -326,7 +681,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 32,
+              "Title": "Publishers.cs",
+              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
+              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
+              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
+              "RelativeToolTip": "BaiThucHanhWeb\\Model\\Domain\\Publishers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T01:03:40.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "BookDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Data\\BookDbContext.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Data\\BookDbContext.cs",
@@ -338,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
               "Title": "Image.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Image.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\Domain\\Image.cs",
@@ -350,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\IUserRepository.cs",
@@ -362,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 30,
               "Title": "PublishersController.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\PublishersController.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Controllers\\PublishersController.cs",
@@ -374,19 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Program.cs",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Program.cs",
-              "RelativeToolTip": "BaiThucHanhWeb\\Program.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAABIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T01:26:24.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 36,
               "Title": "ImageUploadRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\ImageUploadRequestDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\ImageUploadRequestDTO.cs",
@@ -398,19 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaiThucHanhWeb.csproj",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\BaiThucHanhWeb.csproj",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\BaiThucHanhWeb.csproj",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\BaiThucHanhWeb.csproj",
-              "RelativeToolTip": "BaiThucHanhWeb\\BaiThucHanhWeb.csproj",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-14T03:12:54.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 37,
               "Title": "LoginRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\LoginRequestDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\LoginRequestDTO.cs",
@@ -422,19 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\appsettings.json",
-              "RelativeToolTip": "BaiThucHanhWeb\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-23T01:11:44.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 34,
               "Title": "PublishersDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\PublishersDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\PublishersDTO.cs",
@@ -446,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 38,
               "Title": "RegisterRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\RegisterRequestDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\RegisterRequestDTO.cs",
@@ -458,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 39,
               "Title": "LoginResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\LoginResponseDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\LoginResponseDTO.cs",
@@ -470,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 40,
               "Title": "AuthorsDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\AuthorsDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\AuthorsDTO.cs",
@@ -482,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 41,
               "Title": "Authors.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Authors.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\Domain\\Authors.cs",
@@ -494,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 42,
               "Title": "Book_Author.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Book_Author.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\Domain\\Book_Author.cs",
@@ -506,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 45,
               "Title": "TokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\TokenRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\TokenRepository.cs",
@@ -518,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 44,
               "Title": "Books.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\Domain\\Books.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\Domain\\Books.cs",
@@ -530,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 43,
               "Title": "AdBookRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\AdBookRequestDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\AdBookRequestDTO.cs",
@@ -542,19 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "BaiThucHanhWeb\\Controllers\\AuthorsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T08:29:25.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 46,
               "Title": "20240514024236_AddImages.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\BookDb\\20240514024236_AddImages.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\BookDb\\20240514024236_AddImages.cs",
@@ -566,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 48,
               "Title": "20240514022932_AddImage.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\BookDb\\20240514022932_AddImage.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\BookDb\\20240514022932_AddImage.cs",
@@ -578,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 47,
               "Title": "20240514023216_AddImages.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\BookDb\\20240514023216_AddImages.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\BookDb\\20240514023216_AddImages.cs",
@@ -590,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 49,
               "Title": "20240514021721_AddImages.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\BookDb\\20240514021721_AddImages.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\BookDb\\20240514021721_AddImages.cs",
@@ -602,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 50,
               "Title": "IImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\IImageRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\IImageRepository.cs",
@@ -614,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 52,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\IBookRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\IBookRepository.cs",
@@ -626,19 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SQLBookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
-              "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
-              "ToolTip": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
-              "RelativeToolTip": "BaiThucHanhWeb\\Repositories\\SQLBookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:54:28.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 51,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Controllers\\UserController.cs",
@@ -650,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 53,
               "Title": "IPublishersRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\IPublishersRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\IPublishersRepository.cs",
@@ -662,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 54,
               "Title": "SQLUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLUserRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\SQLUserRepository.cs",
@@ -674,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 55,
               "Title": "SQLPublishersRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLPublishersRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\SQLPublishersRepository.cs",
@@ -686,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 56,
               "Title": "SQLAuthorsRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\SQLAuthorsRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\SQLAuthorsRepository.cs",
@@ -698,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 57,
               "Title": "ITokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\ITokenRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\ITokenRepository.cs",
@@ -710,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 58,
               "Title": "UserLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\UserLoginRequest.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\UserLoginRequest.cs",
@@ -722,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 59,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\User.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\User.cs",
@@ -734,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 60,
               "Title": "IAuthorsRepository.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Repositories\\IAuthorsRepository.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Repositories\\IAuthorsRepository.cs",
@@ -746,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 61,
               "Title": "BookDTO.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Model\\DTO\\BookDTO.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Model\\DTO\\BookDTO.cs",
@@ -758,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 62,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\JWT\\IUserService.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\JWT\\IUserService.cs",
@@ -770,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 63,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\AppData\\Local\\SourceServer\\8c26dc2578e9ec835e73d2a48b464902b34b71a1f2e08031d79bbdcdcbf4d7fa\\BaiThucHanhWeb\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\8c26dc2578e9ec835e73d2a48b464902b34b71a1f2e08031d79bbdcdcbf4d7fa\\BaiThucHanhWeb\\Controllers\\BooksController.cs",
@@ -782,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 67,
               "Title": "20240423022510_Authors.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423022510_Authors.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423022510_Authors.cs",
@@ -793,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 66,
               "Title": "20240423022527_Book_Author.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423022527_Book_Author.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423022527_Book_Author.cs",
@@ -804,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 65,
               "Title": "20240423022542_Books.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423022542_Books.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423022542_Books.cs",
@@ -815,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 64,
               "Title": "20240423022554_Publishers.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423022554_Publishers.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423022554_Publishers.cs",
@@ -826,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 70,
               "Title": "20240423012951_Book_Author.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423012951_Book_Author.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423012951_Book_Author.cs",
@@ -837,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 69,
               "Title": "20240423013009_Books.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423013009_Books.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423013009_Books.cs",
@@ -848,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 68,
               "Title": "20240423013026_Publishers.cs",
               "DocumentMoniker": "C:\\Users\\SongCam\\source\\repos\\BaiThucHanhWeb\\BaiThucHanhWeb\\Migrations\\20240423013026_Publishers.cs",
               "RelativeDocumentMoniker": "BaiThucHanhWeb\\Migrations\\20240423013026_Publishers.cs",

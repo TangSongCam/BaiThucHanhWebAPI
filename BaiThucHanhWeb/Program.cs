@@ -112,6 +112,7 @@ builder.Services.Configure<IdentityOptions>(option =>
     option.Password.RequiredUniqueChars = 1;
 });
 
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 

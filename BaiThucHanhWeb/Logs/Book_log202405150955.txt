@@ -1,0 +1,17 @@
+2024-05-15 09:55:37.202 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 09:55:37.338 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-15 09:55:37.339 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-15 09:55:37.341 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 09:55:37.341 +07:00 [INF] Hosting environment: Development
+2024-05-15 09:55:37.342 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-15 09:55:38.438 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-15 09:55:38.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 259.4491ms
+2024-05-15 09:55:38.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 09:55:38.709 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-15 09:55:38.718 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 10.1062ms
+2024-05-15 09:55:38.781 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.1787ms
+2024-05-15 09:55:38.834 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-15 09:55:38.961 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.9733ms
+2024-05-15 09:55:41.060 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-15 09:55:41.084 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books=&filterQuery=&sortBy=&isAscending=True - 404 0 null 24.3857ms
+2024-05-15 09:55:41.087 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/api/Books/get-all-books=&filterQuery=&sortBy=&isAscending=True, Response status code: 404

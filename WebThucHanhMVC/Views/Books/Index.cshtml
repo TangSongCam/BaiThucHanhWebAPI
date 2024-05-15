@@ -1,0 +1,84 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+@model IEnumerable<WebThucHanhMVC.Models.DTO.BookDTO>
+@{
+    ViewBag.Title = "List all books";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Id code</th>
+        <th>Title</th>
+        <th>Authors</th>
+        <th>Publisher</th>
+        <th>Rating</th>
+        <th>Details</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Title</td>
+            <td>
+                @foreach (var i in item.AuthorNames)
+                {
+                    @i <br />
+                }
+            </td>
+            <td>@item.PublisherName</td>
+            <td>
+                @for (var i = 0; i < item.Rate; i++)
+                {
+                    <span class="fa fa-star"></span>
+                }
+                @for (var i = item.Rate; i < 5; i++)
+                {
+                    <span class="fa fa-star-o"></span>
+                }
+            </td>
+            <td><a asp-area="" asp-controller="Books" asp-action="Details" asp-route-id="@item.Id">Detail</a></td>
+            <td><a asp-area="" asp-controller="Books" asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
+            <td><a asp-area="" asp-controller="Books" asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+        </tr>
+    }
+</table>
+
+<form asp-controller="Books" asp-action="Index" method="GET">
+    <label>Tìm Kiếm Sách:</label>
+    <select name="filterOn" id="filterOn">
+        <option value="title">Tiêu đề</option>
+        <option value="author">Tác giả</option>
+        <option value="publisher">Nhà xuất bản</option>
+    </select>
+
+    <label for="author-filter">Lọc theo Tác giả:</label>
+    <select id="author-filter" name="author">
+        <option value="">Tất cả Tác giả</option>
+        <option value="nguyen-van-a">Nguyễn Văn A</option>
+        <option value="le-thi-b">Lê Thị B</option>
+    </select>
+
+    <label for="publisher-filter">Lọc theo Nhà xuất bản:</label>
+    <select id="publisher-filter" name="publisher">
+        <option value="">Tất cả Nhà xuất bản</option>
+        <option value="nxb-abc">NXB ABC</option>
+        <option value="nxb-xyz">NXB XYZ</option>
+    </select>
+
+    <label>Sắp xếp theo:</label>
+    <input type="radio" id="sort-title" name="sort" value="title">
+    <label for="sort-title">Tiêu đề</label>
+    <input type="radio" id="sort-date" name="sort" value="date">
+    <label for="sort-date">Ngày</label>
+
+    <label>Thứ tự:</label>
+    <input type="radio" id="order-asc" name="order" value="asc">
+    <label for="order-asc">Tăng dần</label>
+    <input type="radio" id="order-desc" name="order" value="desc">
+    <label for="order-desc">Giảm dần</label>
+
+    <button type="submit">Áp dụng bộ lọc</button>
+</form>

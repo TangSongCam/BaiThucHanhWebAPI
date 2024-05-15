@@ -1,0 +1,40 @@
+﻿@model WebThucHanhMVC.Models.DTO.addBookDTO
+@{
+    var listAuthor = ViewBag.listAuthor;
+    var listPublisher = ViewBag.listPublisher;
+}
+
+<form asp-controller="Books" asp-action="AddBook" method="POST">
+    <label>Tiêu đề</label>
+    <input type="text" name="title" asp-for="title" /><span asp-validation-for="title" class="text-danger"></span><br />
+    <label>Mô tả</label>
+    <input type="text" name="description" asp-for="description" /><br />
+    <label>Đã đọc</label>
+    <input type="radio" name="isRead" asp-for="isRead" value="True" /> Có
+    <input type="radio" name="isRead" asp-for="isRead" value="False" /> Không<br />
+    <label>Ngày đọc</label>
+    <input type="date" name="dateRead" asp-for="dateRead" /><br />
+    <label>Đánh giá</label>
+    <input type="number" name="rate" asp-for="rate" /><br />
+    <label>Thể loại</label>
+    <input type="text" name="genre" asp-for="genre" /><br />
+    <label>URL bìa sách</label>
+    <input type="text" name="coverUrl" asp-for="coverUrl" /><br />
+    <label>Ngày thêm</label>
+    <input type="date" name="dateAdded" asp-for="dateAdded" /><br />
+    <label>Nhà xuất bản</label>
+    <select name="publisherID" asp-for="publisherID">
+        @foreach (var item in listPublisher)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
+    <label>Tác giả</label>
+    <select name="authorIds" multiple asp-for="AuthorIds">
+        @foreach (var item in listAuthor)
+        {
+            <option value="@item.Id">@item.FullName</option>
+        }
+    </select>
+    <input type="submit" />
+</form>

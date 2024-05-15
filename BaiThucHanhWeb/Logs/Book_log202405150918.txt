@@ -1,0 +1,29 @@
+2024-05-15 09:18:17.311 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/api/Books/get-all-books - null null
+2024-05-15 09:18:17.347 +07:00 [INF] Executing endpoint 'BaiThucHanhWeb.Controllers.BooksController.GetAll (BaiThucHanhWeb)'
+2024-05-15 09:18:17.349 +07:00 [INF] Route matched with {action = "GetAll", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller BaiThucHanhWeb.Controllers.BooksController (BaiThucHanhWeb).
+2024-05-15 09:18:17.354 +07:00 [INF] GetAll Book Action method was invoked
+2024-05-15 09:18:17.354 +07:00 [WRN] This is a warning log
+2024-05-15 09:18:17.355 +07:00 [ERR] This is a error log
+2024-05-15 09:18:17.715 +07:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[Title], [b].[Description], [b].[IsRead], CASE
+    WHEN [b].[IsRead] = CAST(1 AS bit) THEN [b].[DateRead]
+    ELSE NULL
+END, [b].[Rate], CONVERT(varchar(11), [b].[Genre]), [b].[CoverUrl], [p].[Name], [p].[ID], [t].[FullName], [t].[ID], [t].[ID0]
+FROM [Books] AS [b]
+INNER JOIN [Publishers] AS [p] ON [b].[PublisherID] = [p].[ID]
+LEFT JOIN (
+    SELECT [a].[FullName], [b0].[ID], [a].[ID] AS [ID0], [b0].[BookID]
+    FROM [BookAuthors] AS [b0]
+    INNER JOIN [Authors] AS [a] ON [b0].[AuthorID] = [a].[ID]
+) AS [t] ON [b].[ID] = [t].[BookID]
+ORDER BY [b].[ID], [p].[ID], [t].[ID]
+2024-05-15 09:18:17.731 +07:00 [INF] Finished GetAllBook request with data [{"ID":4,"Title":"The Alchemist","Description":"The Alchemist is about a shepherd named Santiago who embarks on a journey to fulfill his dreams and find the true meaning of life.","IsRead":false,"DateRead":null,"Rate":5,"Genre":"1","CoverUrl":"https://www.tailieuielts.com/wp-content/uploads/2022/01/The-Alchemist-676x1024.jpg","DateAdded":"0001-01-01T00:00:00","PublisherName":"HarperCollins","AuthorName":[]},{"ID":7,"Title":"Harry Potter","Description":"Harry Potter series follows the adventures of a young wizard at Hogwarts School of Witchcraft and Wizardry.","IsRead":false,"DateRead":null,"Rate":4,"Genre":"2","CoverUrl":"https://www.tailieuielts.com/wp-content/uploads/2022/01/Harry-Potter.jpg","DateAdded":"0001-01-01T00:00:00","PublisherName":"Bloomsbury (UK), Scholastic (US)","AuthorName":[]},{"ID":11,"Title":"xzcx","Description":"zxcxz","IsRead":true,"DateRead":"2024-04-23T06:22:38.414","Rate":3,"Genre":"2","CoverUrl":"cvbcvb","DateAdded":"0001-01-01T00:00:00","PublisherName":"HarperCollins","AuthorName":[]},{"ID":12,"Title":"vbn","Description":"vbnvbn","IsRead":true,"DateRead":"2024-04-25T01:28:44.504","Rate":3,"Genre":"4","CoverUrl":"nmbnmnbm","DateAdded":"0001-01-01T00:00:00","PublisherName":"Amulet Books (US), Puffin Books (UK)","AuthorName":[]},{"ID":16,"Title":"V\u01B0\u01A1ng","Description":"hahaha","IsRead":true,"DateRead":"2024-04-25T03:15:07.096","Rate":1,"Genre":"2","CoverUrl":"haha","DateAdded":"0001-01-01T00:00:00","PublisherName":"Bloomsbury (UK), Scholastic (US)","AuthorName":["J.K. Rowling"]},{"ID":17,"Title":"lavamavuong","Description":"haha","IsRead":true,"DateRead":"2024-05-07T02:34:44.348","Rate":5,"Genre":"1","CoverUrl":"string","DateAdded":"0001-01-01T00:00:00","PublisherName":"HarperCollins","AuthorName":["Paulo Coelho"]}]
+2024-05-15 09:18:17.734 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BaiThucHanhWeb.Model.DTO.BookDTO, BaiThucHanhWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-15 09:18:17.737 +07:00 [INF] Executed action BaiThucHanhWeb.Controllers.BooksController.GetAll (BaiThucHanhWeb) in 385.8249ms
+2024-05-15 09:18:17.738 +07:00 [INF] Executed endpoint 'BaiThucHanhWeb.Controllers.BooksController.GetAll (BaiThucHanhWeb)'
+2024-05-15 09:18:17.739 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/api/Books/get-all-books - 200 null application/json; charset=utf-8 428.3436ms
+2024-05-15 09:18:50.515 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=Name&ascending=true - null null
+2024-05-15 09:18:50.523 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-15 09:18:50.528 +07:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2024-05-15 09:18:50.530 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=Name&ascending=true - 403 0 null 14.7874ms

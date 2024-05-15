@@ -1,0 +1,6 @@
+2024-05-15 10:03:26.613 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/api/Books/get-all-books - null null
+2024-05-15 10:03:26.639 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-15 10:03:26.642 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-15 10:03:26.644 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/api/Books/get-all-books - 401 0 null 30.5361ms

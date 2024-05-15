@@ -133,7 +133,7 @@ namespace BaiThucHanhWeb
                 case "id":
                     query = ascending ? query.OrderBy(b => b.ID) : query.OrderByDescending(b => b.ID);
                     break;
-                case "title":
+                case "name":
                     query = ascending ? query.OrderBy(b => b.Title) : query.OrderByDescending(b => b.Title);
                     break;
                 default:

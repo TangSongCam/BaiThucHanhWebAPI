@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34804.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiThucHanhWeb", "BaiThucHanhWeb\BaiThucHanhWeb.csproj", "{74FE97FB-10A4-4DE9-8890-09A533334274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaiThucHanhWeb", "BaiThucHanhWeb\BaiThucHanhWeb.csproj", "{74FE97FB-10A4-4DE9-8890-09A533334274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebThucHanhMVC", "WebThucHanhMVC\WebThucHanhMVC.csproj", "{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{74FE97FB-10A4-4DE9-8890-09A533334274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FE97FB-10A4-4DE9-8890-09A533334274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FE97FB-10A4-4DE9-8890-09A533334274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B90BD39-AA3B-446B-BE68-FBF31E6C1876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

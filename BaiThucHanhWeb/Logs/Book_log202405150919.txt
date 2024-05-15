@@ -1,0 +1,44 @@
+2024-05-15 09:19:40.191 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 09:19:40.307 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-15 09:19:40.309 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-15 09:19:40.310 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-15 09:19:40.311 +07:00 [INF] Hosting environment: Development
+2024-05-15 09:19:40.311 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-15 09:19:40.639 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-15 09:19:40.786 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 147.2676ms
+2024-05-15 09:19:40.790 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-15 09:19:40.790 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-15 09:19:40.797 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.2842ms
+2024-05-15 09:19:40.826 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2189ms
+2024-05-15 09:19:40.918 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-15 09:19:41.030 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.6611ms
+2024-05-15 09:19:41.421 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-15 09:19:41.443 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-15 09:19:41.446 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-15 09:19:41.448 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 27.0107ms
+2024-05-15 09:19:53.266 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-15 09:19:53.271 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-15 09:19:53.272 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-15 09:19:53.273 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 6.9908ms
+2024-05-15 09:19:54.821 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-15 09:19:54.827 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-15 09:19:54.828 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-15 09:19:54.828 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 7.507ms
+2024-05-15 09:19:54.937 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-15 09:19:54.939 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-15 09:19:54.939 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-15 09:19:54.940 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 3.3105ms
+2024-05-15 09:19:55.042 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-15 09:19:55.044 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Read)
+2024-05-15 09:19:55.045 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-15 09:19:55.046 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books?filterOn=&filterQuery=&sortBy=&isAscending=True - 401 0 null 4.3869ms
