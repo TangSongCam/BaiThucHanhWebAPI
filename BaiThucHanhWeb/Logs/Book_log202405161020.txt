@@ -1,0 +1,25 @@
+2024-05-16 10:20:22.494 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 10:20:22.726 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-16 10:20:22.727 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-16 10:20:22.729 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 10:20:22.730 +07:00 [INF] Hosting environment: Development
+2024-05-16 10:20:22.731 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-16 10:20:24.771 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-16 10:20:25.376 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 605.6249ms
+2024-05-16 10:20:25.387 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 10:20:25.393 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-16 10:20:25.469 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 81.8509ms
+2024-05-16 10:20:25.510 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.3923ms
+2024-05-16 10:20:25.694 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-16 10:20:25.895 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 201.3635ms
+2024-05-16 10:20:29.101 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=true&filterOn=&filterQuery=&sortBy=&isAscending=True - null null
+2024-05-16 10:20:29.120 +07:00 [INF] Executing endpoint 'BaiThucHanhWeb.Controllers.BooksController.GetAllBooksSortedByField (BaiThucHanhWeb)'
+2024-05-16 10:20:29.133 +07:00 [INF] Route matched with {action = "GetAllBooksSortedByField", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllBooksSortedByField(System.String, Boolean) on controller BaiThucHanhWeb.Controllers.BooksController (BaiThucHanhWeb).
+2024-05-16 10:20:29.881 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[ID], [b].[Title]
+FROM [Books] AS [b]
+ORDER BY [b].[ID]
+2024-05-16 10:20:29.896 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[BaiThucHanhWeb.Model.DTO.BookDTO, BaiThucHanhWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-16 10:20:29.913 +07:00 [INF] Executed action BaiThucHanhWeb.Controllers.BooksController.GetAllBooksSortedByField (BaiThucHanhWeb) in 775.9777ms
+2024-05-16 10:20:29.916 +07:00 [INF] Executed endpoint 'BaiThucHanhWeb.Controllers.BooksController.GetAllBooksSortedByField (BaiThucHanhWeb)'
+2024-05-16 10:20:29.921 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=true&filterOn=&filterQuery=&sortBy=&isAscending=True - 200 null application/json; charset=utf-8 819.2031ms

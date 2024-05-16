@@ -1,0 +1,74 @@
+2024-05-16 09:07:33.068 +07:00 [INF] User profile is available. Using 'C:\Users\SongCam\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-16 09:07:33.186 +07:00 [INF] Now listening on: https://localhost:7183
+2024-05-16 09:07:33.186 +07:00 [INF] Now listening on: http://localhost:5187
+2024-05-16 09:07:33.188 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-16 09:07:33.188 +07:00 [INF] Hosting environment: Development
+2024-05-16 09:07:33.189 +07:00 [INF] Content root path: C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb
+2024-05-16 09:07:33.599 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2024-05-16 09:07:33.682 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:33.700 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:33.702 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 103.941ms
+2024-05-16 09:07:33.704 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:33.704 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-16 09:07:33.704 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2024-05-16 09:07:33.707 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 25.218ms
+2024-05-16 09:07:33.709 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.5723ms
+2024-05-16 09:07:33.729 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.4507ms
+2024-05-16 09:07:33.762 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2024-05-16 09:07:33.859 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.6368ms
+2024-05-16 09:07:41.082 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:41.091 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:41.093 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:41.094 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 12.2049ms
+2024-05-16 09:07:41.245 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:41.247 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:41.248 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:41.249 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 3.7532ms
+2024-05-16 09:07:42.951 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:42.952 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:42.953 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:42.954 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 3.3238ms
+2024-05-16 09:07:43.692 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:43.694 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:43.695 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:43.695 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 3.4438ms
+2024-05-16 09:07:43.821 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:43.823 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:43.824 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:43.825 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 4.3375ms
+2024-05-16 09:07:44.003 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:44.005 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:44.008 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:44.010 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 7.5262ms
+2024-05-16 09:07:44.141 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:44.143 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:44.144 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:44.145 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 3.775ms
+2024-05-16 09:07:44.286 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:44.288 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:44.289 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:44.291 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 4.0312ms
+2024-05-16 09:07:44.429 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:44.431 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:44.431 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:44.432 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 3.6119ms
+2024-05-16 09:07:44.550 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:44.552 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:44.553 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:44.554 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 3.8746ms
+2024-05-16 09:07:44.753 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - null null
+2024-05-16 09:07:44.774 +07:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Write)
+2024-05-16 09:07:44.775 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-16 09:07:44.775 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7183/api/Books/get-all-books-sorted-by-field?field=id&ascending=True&filterOn=&filterQuery= - 401 0 null 22.8524ms

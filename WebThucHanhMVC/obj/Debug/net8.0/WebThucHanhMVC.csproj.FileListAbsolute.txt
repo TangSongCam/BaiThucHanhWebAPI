@@ -29,3 +29,6 @@ C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\obj\Debug\net8.0\ref
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\obj\Debug\net8.0\WebThucHanhMVC.pdb
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\obj\Debug\net8.0\WebThucHanhMVC.genruntimeconfig.cache
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\obj\Debug\net8.0\ref\WebThucHanhMVC.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\obj\Debug\net8.0\WebThucHanhMVC.csproj.AssemblyReference.cache
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\WebThucHanhMVC\obj\Debug\net8.0\WebThucH.7E88D234.Up2Date

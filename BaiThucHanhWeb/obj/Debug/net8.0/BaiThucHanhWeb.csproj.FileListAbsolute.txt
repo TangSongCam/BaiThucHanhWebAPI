@@ -158,3 +158,4 @@ C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Sys
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\System.Web.WebPages.dll
 C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\SongCam\source\repos\BaiThucHanhWeb\BaiThucHanhWeb\bin\Debug\net8.0\Newtonsoft.Json.dll

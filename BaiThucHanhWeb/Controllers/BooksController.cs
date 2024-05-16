@@ -14,7 +14,7 @@ namespace BaiThucHanhWeb.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+/*    [Authorize]*/
     public class BooksController : ControllerBase
     {
         private readonly BookDbContext _dbContext;
@@ -29,7 +29,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpGet("get-all-books")]
-        [Authorize(Roles = "Read")]
+/*        [Authorize(Roles = "Read")]*/
         public IActionResult GetAll()
         {
             _logger.LogInformation("GetAll Book Action method was invoked");
@@ -97,7 +97,7 @@ namespace BaiThucHanhWeb.Controllers
         }
 
         [HttpGet("get-all-books-sorted-by-field")]
-        [Authorize(Roles = "Write")]
+        /*[Authorize(Roles = "Write")]*/
         public IActionResult GetAllBooksSortedByField([FromQuery] string field, [FromQuery] bool ascending = true)
         {
             try
